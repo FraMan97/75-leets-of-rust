@@ -20,6 +20,8 @@
 | Problem | Difficulty | Time Complexity | Space Complexity | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **Merge Strings Alternately** | Easy | O(n + m) | O(n + m) | ✅ Completed |
+| **Greatest Common Divisor of Strings** | Easy | O(n + m) | O(n + m) | ✅ Completed |
+
 
 ---
 
