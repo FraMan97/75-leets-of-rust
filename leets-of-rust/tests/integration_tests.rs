@@ -1,4 +1,4 @@
-use leets_of_rust::array_string::{gcd_of_strings::gcd_of_strings, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately};
+use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately};
 
 
 
@@ -24,4 +24,12 @@ fn test_kids_with_candies(){
     let extra_candies = 3;
     let result = kids_with_candies(&candies, extra_candies);
     assert_eq!(result, vec![true, true, true, false, true]);
+}
+
+#[test]
+fn test_can_place_flowers(){
+    let flowerbed = vec![1,0,0,0,1];
+    let n = 1;
+    let result = can_place_flowers(&flowerbed, n);
+    assert_eq!(result, true);
 }
