@@ -23,6 +23,7 @@
 | **Greatest Common Divisor of Strings** | Easy | O(n + m) | O(n + m) | ✅ Completed |
 | **Kids With the Greatest Number of Candies** | Easy | O(n) | O(1) | ✅ Completed |
 | **Can Place Flowers** | Easy | O(n) | O(n) | ✅ Completed |
+| **Reverse Vowels of a String** | Easy | O(n) | O(n) | ✅ Completed |
 
 ---
 

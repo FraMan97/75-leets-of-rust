@@ -1,4 +1,4 @@
-use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately};
+use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, reverse_vowels_string::reverse_vowels_string};
 
 
 
@@ -32,4 +32,11 @@ fn test_can_place_flowers(){
     let n = 1;
     let result = can_place_flowers(&flowerbed, n);
     assert_eq!(result, true);
+}
+
+#[test]
+fn test_reverse_vowels_string(){
+    let mut s = String::from("IceCreAm");
+    reverse_vowels_string(&mut s);
+    assert_eq!(s, "AceCreIm");
 }
