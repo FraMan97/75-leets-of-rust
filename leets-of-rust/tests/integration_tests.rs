@@ -1,4 +1,4 @@
-use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, reverse_vowels_string::reverse_vowels_string};
+use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string};
 
 
 
@@ -39,4 +39,11 @@ fn test_reverse_vowels_string(){
     let mut s = String::from("IceCreAm");
     reverse_vowels_string(&mut s);
     assert_eq!(s, "AceCreIm");
+}
+
+#[test]
+fn test_reverse_words_in_string(){
+    let s: String = String::from("the sky is blue");
+    let result = reverse_words_in_string(&s);
+    assert_eq!(result, "blue is sky the");
 }

@@ -24,6 +24,8 @@
 | **Kids With the Greatest Number of Candies** | Easy | O(n) | O(1) | ✅ Completed |
 | **Can Place Flowers** | Easy | O(n) | O(n) | ✅ Completed |
 | **Reverse Vowels of a String** | Easy | O(n) | O(n) | ✅ Completed |
+| **Reverse Words in a String** | Medium | O(n) | O(n) | ✅ Completed |
+
 
 ---
 
