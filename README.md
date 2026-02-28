@@ -25,6 +25,8 @@
 | **Can Place Flowers** | Easy | O(n) | O(n) | ✅ Completed |
 | **Reverse Vowels of a String** | Easy | O(n) | O(n) | ✅ Completed |
 | **Reverse Words in a String** | Medium | O(n) | O(n) | ✅ Completed |
+| **Product of Array Except Self** | Medium | O(n) | O(n) | ✅ Completed |
+
 
 
 ---
