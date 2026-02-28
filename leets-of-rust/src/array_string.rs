@@ -5,3 +5,4 @@ pub mod can_place_flowers;
 pub mod reverse_vowels_string;
 pub mod reverse_words_string;
 pub mod product_array_except_self;
+pub mod increasing_triplet_subsequence;
