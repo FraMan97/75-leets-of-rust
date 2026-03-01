@@ -27,8 +27,7 @@
 | **Reverse Words in a String** | Medium | O(n) | O(n) | ✅ Completed |
 | **Product of Array Except Self** | Medium | O(n) | O(n) | ✅ Completed |
 | **Increasing Triplet Subsequence** | Medium | O(n) | O(1) | ✅ Completed |
-
-
+| **String Compression** | Medium | O(n) | O(1) | ✅ Completed |
 
 ---
 

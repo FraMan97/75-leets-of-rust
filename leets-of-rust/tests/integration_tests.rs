@@ -1,4 +1,4 @@
-use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string};
+use leets_of_rust::array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression};
 
 
 
@@ -61,4 +61,11 @@ fn test_incresing_triplet_subsequence(){
     let nums = vec![2,1,5,0,4,6];
     let result = increasing_triplet_subsequence(&nums);
     assert_eq!(result, true);
+}
+
+#[test]
+fn test_string_compression(){
+    let mut nums = vec!['a','a','b','b','c','c','c'];
+    let result = string_compression(&mut nums);
+    assert_eq!(result, 6);
 }
