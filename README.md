@@ -31,7 +31,7 @@
 | **Move Zeroes** | Easy | O(n) | O(1) | ✅ Completed |
 | **Is Subsequence** | Easy | O(n) | O(1) | ✅ Completed |
 | **Container With Most Water** | Medium | O(n) | O(1) | ✅ Completed |
-
+| **Max Number of K-Sum Pairs** | Medium | O(n) | O(n) | ✅ Completed |
 ---
 
 ## Project Structure
