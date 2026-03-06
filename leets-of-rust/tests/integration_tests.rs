@@ -1,4 +1,4 @@
-use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, max_number_ksum_pairs::max_number_ksum_pairs, move_zeros::move_zeros}};
+use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, sliding_window::maximum_average_subarray::maximum_average_subarray, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, max_number_ksum_pairs::max_number_ksum_pairs, move_zeros::move_zeros}};
 
 
 
@@ -100,4 +100,12 @@ fn test_max_number_ksum_pairs(){
     let k = 5;
     let result = max_number_ksum_pairs(&nums, &k);
     assert_eq!(result, 2);
+}
+
+#[test]
+fn test_maximum_average_subarray(){
+    let nums = [1,12,-5,-6,50,3];
+    let k: usize = 4;
+    let result = maximum_average_subarray(&nums, k);
+    assert_eq!(result, 12.75000);
 }
