@@ -34,6 +34,8 @@
 | **Max Number of K-Sum Pairs** | Medium | O(n) | O(n) | ✅ Completed |
 | **Maximum Average Subarray I** | Easy | O(n) | O(1) | ✅ Completed |
 | **Maximum Number of Vowels in a Substring of Given Length** | Medium | O(n) | O(1) | ✅ Completed |
+| **Max Consecutive Ones III** | Medium | O(n) | O(1) | ✅ Completed |
+
 
 ---
 
