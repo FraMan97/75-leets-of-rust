@@ -1,4 +1,4 @@
-use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, sliding_window::{maximum_average_subarray::maximum_average_subarray, maximum_consecutive_ones::maximum_consecutive_ones, maximum_number_vowels_substring::maximum_number_vowels_substring}, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, max_number_ksum_pairs::max_number_ksum_pairs, move_zeros::move_zeros}};
+use leets_of_rust::{array_string::{can_place_flowers::can_place_flowers, gcd_of_strings::gcd_of_strings, increasing_triplet_subsequence::increasing_triplet_subsequence, kids_with_candies::kids_with_candies, merge_strings_alternately::merge_strings_alternately, product_array_except_self::product_array_except_self, reverse_vowels_string::reverse_vowels_string, reverse_words_string::reverse_words_in_string, string_compression::string_compression}, sliding_window::{longest_subarray_1_after_deleting_one_element::longest_subarray_1_after_deleting_one_element, maximum_average_subarray::maximum_average_subarray, maximum_consecutive_ones::maximum_consecutive_ones, maximum_number_vowels_substring::maximum_number_vowels_substring}, two_pointers::{container_with_most_water::container_with_most_water, is_subsequence::is_subsequence, max_number_ksum_pairs::max_number_ksum_pairs, move_zeros::move_zeros}};
 
 
 
@@ -123,4 +123,11 @@ fn test_maximum_consecutive_ones(){
     let k: usize = 2;
     let result = maximum_consecutive_ones(&nums, k);
     assert_eq!(result, 6);
+}
+
+#[test]
+fn test_longest_subarray_1_after_deleting_one_element(){
+    let nums = [1,1,0,1];
+    let result = longest_subarray_1_after_deleting_one_element(&nums);
+    assert_eq!(result, 3);
 }

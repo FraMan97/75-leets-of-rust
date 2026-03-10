@@ -35,6 +35,7 @@
 | **Maximum Average Subarray I** | Easy | O(n) | O(1) | ✅ Completed |
 | **Maximum Number of Vowels in a Substring of Given Length** | Medium | O(n) | O(1) | ✅ Completed |
 | **Max Consecutive Ones III** | Medium | O(n) | O(1) | ✅ Completed |
+| **Longest Subarray of 1's After Deleting One Element** | Medium | O(n) | O(1) | ✅ Completed |
 
 
 ---
