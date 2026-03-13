@@ -38,6 +38,7 @@
 | **Longest Subarray of 1's After Deleting One Element** | Medium | O(n) | O(1) | ✅ Completed |
 | **Find the Highest Altitude** | Easy | O(n) | O(1) | ✅ Completed |
 | **Find Pivot Index** | Easy | O(n) | O(1) | ✅ Completed |
+| **Find the Difference of Two Arrays** | Easy | O(n) | O(n + m) | ✅ Completed |
 
 
 ---
